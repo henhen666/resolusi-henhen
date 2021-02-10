@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Form Registrasi</title>
+            </head>
+        <body text="white" bgcolor="orange">
+            <form method="POST" action="Simpan.ASP">
+                <table text="white" cellpadding="10" cellspacing="1" width="100%" height="100" border="2">
+                <tr>
+                    <td width="100%" colspan="2" align="center" heigth="48" bgcolor="red">
+                <font face="Microsoft San Serif" size="6" color="white">Pendaftaran/Registrasi</font></td>
+                </tr>
+                <tr>
+                    <td width="23%" heigth="19" bgcolor="green">Password</td>
+                    <td width="77%" heigth="19" bgcolor="blue">
+                <input type="password" name="passwd" size="40"></td>
+                </tr>
+                <tr>
+                    <td width="23%" heigth="19" bgcolor="green">Nama lengkap</td>
+                    <td width="77%" heigth="19" bgcolor="blue">
+                Hal :7/7
+                    <input type="text" dir=rtl name="textnama" size="40"></td>
+                </tr>
+                <tr>
+                    <td width="23%" heigth="19" bgcolor="green">Alamat e-mail aktif</td>
+                    <td width="77%" heigth="19" bgcolor="blue"> <input type="text" size="50" maxlength="30" value="Alamat e-mail">  
+                </tr>
+                <tr>
+                    <td width="23%" heigth="19" bgcolor="green">Nomor Telepon Aktif</td>
+                    <td width="77%" heigth="19" bgcolor="blue"> <input type="text" size="40" maxlength="13" value="Nomor Telepon">
+                </tr>
+                    <td width="23%" height="19" bgcolor="green">Jenis Kelamin</td>
+                    <td width="77%" heigth="19" bgcolor="blue">
+                        <input type="radio" value="Pria" checked name="OptJenis">Pria
+                        <input type="radio" value="Wanita" name="OptJenis">Wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td width="23%" height="19" bgcolor="green">Agama</td>
+                    <td width="77%" height="19" bgcolor="blue">
+                        <select size="1" name="cboagama">
+                            <option selected value="Islam">Islam</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Kristen">Kristen</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Konghucu">Konghucu</option>
+                            <option value="Keyakinan">Keyakinan</option>
+                            </select></td>
+                </tr>
+                <tr>
+                    <td width="23%" height="19" bgcolor="green">Hobby</td>
+                    <td width="33%" height="19" bgcolor="blue">
+                        <input type="checkbox" name="c1" value="ON">Sport
+                        <input type="checkbox" name="c2" value="ON">Nonton
+                        <input type="checkbox" name="c3" value="ON">Travelling 
+                        <input type="checkbox" name="a1" value="ON">Hiking </td>
+                </tr>
+                <tr>
+                    <td width="23%" height="19" bgcolor="green"></td>
+                    <td width="77%" height="19" bgcolor="blue">
+                        <input type="checkbox" name="c4" value="ON">Musik
+                        <input type="checkbox" name="c5" value="ON">Panjat Tebing
+                        <input type="checkbox" name="c6" value="ON">Bersepeda
+                        <input type="checkbox" name="a2" value="ON">Lain-lain:
+                        <textarea wrap rows="3" name="S2" cols="40"></textarea> </td>
+                </tr>
+                <tr>
+                    <td width="23%" height="19" bgcolor="green">Alamat lengkap</td>
+                    <td width="77%" height="19" bgcolor="blue"> <input type="text" name="alamat" value="Masukkan alamat" maxlength=200 size="100">
+                </tr>
+                <tr>
+                    <td width="23%" heigth="19" bgcolor="green">Status Kewarganegaraan</td>
+                    <td width="77%" heigth="19" bgcolor="blue"> <input type="radio" value="Pria" checked name="OptJenis">WNI
+                    <input type="radio" value="Wanita" name="OptJenis">WNA
+                </tr>
+                <tr>
+                    <td width="23%" height="16" bgcolor="green">Komentar</td>
+                    <td width="77%" height="16" bgcolor="blue">
+                    <textarea wrap rows="6" name="S1" cols="60"></textarea></td>
+                </tr>
+                <tr>
+                    <td width="100" heigth="51" bgcolor="red" colspan="2">
+                    <p align="center">
+                    <input type="submit" value="Submit" name="B1"> 
+                    <input type="reset" value="Reset" name="B2">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
