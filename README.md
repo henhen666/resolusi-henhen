@@ -1,2 +1,2 @@
 # resolusi-henhen
-Repository berisi resolusi saya
+Repository berisi resolusi dan pembuatan halaman web yang sangat sederhana saya
