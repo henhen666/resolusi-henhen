@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iseng Aja</title>
+    <link rel="stylesheet" href="belajarCSS.css">
+</head>
+<body>
+    <h1 align="center" >
+        Hello World! <br><br>
+    </h1>
+    <div class="logo">
+        <ul>
+            <li><a href="">Home--</a></li>
+            <li><a href="https://www.instagram.com/_henz.g/">AboutUs--</a></li>
+            <li><a href="">Info</a></li>
+        </ul>
+    </div>
+    <br>
+    Halo semua! 
+    <br>
+    <h2>Form Pendaftaran</h2>
+    Halo semua, untuk mengikuti kegiatan ini silakan masukkan data pribadi masing-masing ya! <br><br>
+    <form action="POST">
+        <table cellpadding="10" cellspacing="1" width="100%" height="100" border="3">
+            <tr>
+                <td>
+                    Nama Lengkap:
+                </td>
+                <td>
+                    <input type="text" size="25" value="Nama Lengkap">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Usia:
+                </td>
+                <td>
+                    <select name="Usia" size="1">
+                        <option selected value="15 tahun">15 tahun</option>
+                        <option value="<15">Kurang dari 15 tahun</option>
+                        <option value="16">16 tahun</option>
+                        <option value="17">17 tahun</option>
+                        <option value="18">18 tahun</option>
+                        <option value="19">19 tahun</option>
+                        <option value="20">20 tahun</option>
+                        <option value=">20">Lebih dari 20 tahun</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Agama:
+                </td>
+                <td>
+                    <select name="agama" size="1">
+                        <option selected value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katolik">Katolik</option>
+                        <option value="Buddha">Buddha</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Konghucu">Konghucu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alamat email:
+                </td>
+                <td>
+                    <input type="text" value="Alamat email aktif" size="40">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jenis Kelamin:
+                </td>
+                <td>
+                    <input type="radio" value="Pria" checked name="OptJenis">Pria
+                    <input type="radio" value="Wanita" name="OptJenis">Wanita
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hobi:
+                </td>
+                <td>
+                    <div class="checkbox">
+                    <input type="checkbox" value="musik">Musik
+                    <input type="checkbox" value="olahraga">Olahraga <br>
+                    <input type="checkbox" value="seni">Seni
+                    <input type="checkbox" value="Lain-lain">Lain-lain:
+                    <textarea name="Hobi" id="" cols="30" wrap rows="5" style="vertical-align: middle;"></textarea>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alamat:
+                </td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="5" style="vertical-align: middle;">Masukkan alamat lengkap!</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Prestasi:
+                </td>
+                <td>
+                    Kirim bukti prestasi(piagam, piala, dll) dalam bentuk PDF(untuk piagam) dan dalam bentuk foto(Piala/Medali)
+                    <br>
+                        <form action="/action_page.php"></form>
+                    <input type="file" id="myFile" name="filename">
+                    <input type="submit">
+                </td>
+            </tr>    
+        </table>
+    </form>
+</body>
+</html>
